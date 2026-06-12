@@ -2,6 +2,16 @@
 
 A Flutter POC demonstrating grocery price comparison across multiple retailers with product matching, location-based store selection, and Supabase integration.
 
+## Demo
+
+These are real captures from the iOS Simulator, generated via an integration-test driver (see [FLOW.md](FLOW.md) for how they were produced).
+
+| Nearby Stores | Price Comparison | Browse Products | Search Results |
+| --- | --- | --- | --- |
+| ![Nearby Stores](screenshots/01-nearby-stores.png) | ![Price Comparison](screenshots/02-price-comparison.png) | ![Browse Products](screenshots/03-browse-products.png) | ![Search Results](screenshots/04-search-results.png) |
+
+![Demo](screenshots/demo.gif)
+
 ## Features
 
 - **Retailer Data Integration** - Simulates Bright Data scraping API for fetching product/pricing data from multiple grocery chains (Safeway, Trader Joe's, Whole Foods, Costco, Walmart, Target)
